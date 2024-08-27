@@ -9,7 +9,7 @@ const second = prompt('Inserisci seconda parola');
 
 
 function checkSameLength (a, b){
-    if(a. length == b.length){
+    if(a.length == b.length){
 
         return true;
     }
