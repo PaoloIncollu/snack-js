@@ -7,7 +7,19 @@
 const first = prompt('Inserisci prima parola');
 const second = prompt('Inserisci seconda parola');
 
-if(first.length == second.length)
+
+function checkSameLength (a, b){
+    if(a. length == b.length){
+
+        return true;
+    }
+    else {
+
+        return false;
+    }
+}
+
+if(checkSameLength (first, second))
 {
 
     console.log ('Le parole inserite hanno la stessa lunghezza ','Prima parola:' + first , 'Seconda parola:' + second);
